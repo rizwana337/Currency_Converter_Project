@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .main {
+    width:100%;
+    /* background: linear-gradient(rgba(199, 178, 178, 0.7),rgba(211, 192, 192, 0.7)),url('https://www.howtoisolve.com/wp-content/uploads/2022/04/best-currency-converter-apps.webp'); */
+    /* background: linear-gradient(rgba(13, 12, 12, 0.7),rgba(15, 14, 14, 0.7)),url('https://www.howtoisolve.com/wp-content/uploads/2022/04/best-currency-converter-apps.webp'); */
+    background: linear-gradient(rgba(255, 255, 255,0.8),rgba(255, 255, 255,0.8)),url('https://www.howtoisolve.com/wp-content/uploads/2022/04/best-currency-converter-apps.webp');
+
+/* padding:30px; */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+  height: 100%;
+  text-align: center;
+  color: #fff;   
+  /* margin-left: 20px; */
+  }
+  .main .navbar{
+    background: rgba(34,61,13,.9);
+    width: 100%;
+    height: 60px;
+  }
+  .navbar .sidelogo{
+    width:50px;
+    height:40px;
+      position:absolute;
+    top:10px;
+    gap:10px;
+  left:1%;
+      
+  }
+  
+  
+    .navbar h1{
+    font-size: 30px;
+    color: #9fe870;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+    letter-spacing: 1.5px;
+    margin-left: 70px;
+  margin-top: 10px;
+        float:left;
+        /* top:10px; */
+
+  
+  cursor: pointer;}
+  
+.main .navbar ul{
+  float:right;
+
+}
+.main .navbar ul li{
+  display: inline-block;
+  list-style: none;
+position: relative;
+top:15px;
+
+}
+.main .navbar ul li a{
+  font-size: 18px;
+  text-transform:uppercase ;
+  color: #9fe870  ;
+  padding:10px;
+
+  /* padding: 0px 40px; */
+  /* margin-left: 10px; */
+  text-decoration: none; 
+} 
+
+.main .navbar ul li a:hover{
+  color: #000000;
+  transition: all 0.4s ease 0s;
+}
+ 
+ .main .content{
+    width: 100%;
+    /* position: absolute; */
+    /* margin-top: 30px; */
+padding-top:180px;
+/* margin-left: 100px;   */
+transform: translateY(-50%);
+  text-align: center;
+  /* margin-bottom: 20px; */
+  }
+  .content h1{
+    font-size: 50px;
+    /* color: rgba(34,61,13,.9); */
+    color: #00539CFF;
+
+  } 
+
+  .content p{
+    margin: 10px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 20px;
+/* color: #00539CFF; */
+color: #000;
+
+margin-bottom: 200px;
+  }
+ 
+ .main .convert{
+    top: 28%;
+    
+    background: rgba(34,61,13,.9);
+
+  justify-content: center;
+padding-top: 10px;
+margin-left: 15%;  
+  position: fixed;
+      color: #fff;
+      border-radius: 2rem;
+      
+      width: 70%;
+      height: 55%;
+  }
+  .convert,.exchange{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    padding-right: 20px;
+    
+}
+input{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+    margin: 5px auto;
+    outline: 0;
+    border: 4px solid #FFD662FF;
+border-radius: 15px;
+gap:50px;
+}
+
+#original-currency-amount{
+    padding-left: 50px;
+}
+button {
+	width: 300px;
+	height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00539CFF;
+    font-family: 'Sansita Swashed', cursive;
+    /* background-color: transparent;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; */
+}
+#exchange{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 20px;
+    outline: 0;
+    color: #00539CFF;
+    border: 4px solid #FFD662FF;
+
+}
+
+#exchange:active, button:active {
+	transform: scale(0.9);
+}
+#exchange_button:hover{
+    background-color: #9fe870;
+
+}
+select{
+	width: 300px;
+	height: 35px;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 10px;
+  outline: 0;
+  border: 4px solid #FFD662FF;
+border-radius: 15px;
+}
+#exchange_button{
+    background-color:#FFD662FF;
+    border: 4px solid #FFF;
+border-radius: 15px;
+}
+#output-text{
+    display: none;
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+span{
+    color: #FFD662FF;
+
+    font-size: 35px;
+} */
+
+#exchange-rate{
+    cursor:default;
+}
+.rate{
+    justify-content: left;
+    color: #9fe870;;
+}
+
+.main .footer{
+    background-color: rgb(178, 173, 173);
+    /* margin: 400px; */
+    width: 300px;
+    margin-left: 39%;  
+    margin-top: 370px;
+}
+.social a{
+    
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    width:40px;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+}
+.social a:hover{
+    background-color: antiquewhite;
+}
+
+.main .copy-right{
+    text-align: center;
+    padding-top: 20px;
+color: black;
+}
